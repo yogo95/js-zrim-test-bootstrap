@@ -1,0 +1,33 @@
+{
+  "name": "js-zrim-test-bootstrap",
+  "version": "0.1.0",
+  "description": "Contains utilities to make tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unitTest",
+    "unitTest": "echo \"No test available\" && exit 0",
+    "codeStyleValidation": "eslint lib/** api/** test/** *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogo95/js-zrim-test-bootstrap.git"
+  },
+  "keywords": [
+    "zrim-everything",
+    "test",
+    "utilities"
+  ],
+  "author": "NEGRO, Eric <yogo95@zrim-everything.eu>",
+  "license": "CECILL-2.1",
+  "dependencies": {
+    "async": "2.5.0",
+    "fs-extra": "4.0.2",
+    "istanbul": "0.4.5",
+    "jasmine": "2.8.0",
+    "jasmine-reporters": "2.2.1",
+    "joi": "11.0.3",
+    "lodash": "4.17.4",
+    "mock-require": "2.0.2",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
